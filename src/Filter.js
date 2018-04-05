@@ -42,7 +42,7 @@ export function filterSelector(filter, feature, key = 0) {
       return true;
     }
   } else {
-    throw new Error(`Unkown filter ${type}`);
+    throw new Error(`Unknown filter ${type}`);
   }
   return false;
 }
